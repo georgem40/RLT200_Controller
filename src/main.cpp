@@ -37,7 +37,7 @@ void setup(void)
    setup_output();
 
    tft.init();
-   tft.setRotation(3);
+   tft.setRotation(1);
 
    Wire.begin(PIN_IIC_SDA, PIN_IIC_SCL);
     if (!touch.init()) {
@@ -65,7 +65,7 @@ void loop()
       // map to the display configuration
       uint16_t x = touch.getPoint(0).y;
       uint16_t y = touch.getPoint(0).x;
-      x = map(x, 0, 320, 320, 0);
+      y = map(y, 0, 170, 170, 0);
 
       if(menu.last_touch_x != x && menu.last_touch_y != y)
       {
