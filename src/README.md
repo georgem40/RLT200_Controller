@@ -1,0 +1,1 @@
+- To fix "Failed to connect to ESP32-S3: No serial data received" error, see second comment here: https://bit.ly/3YDVqdP
