@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <TFT_eSPI.h>
-#include "Adafruit_ILI9341.h"
 
 extern TFT_eSPI tft;
 
