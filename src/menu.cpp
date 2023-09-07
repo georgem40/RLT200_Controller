@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <stdio.h>
-#include "Adafruit_ILI9341.h"
 #include "menu.h"
 
 static bool between(uint16_t corner, uint8_t width, uint16_t value)
